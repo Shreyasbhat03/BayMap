@@ -1,5 +1,3 @@
-package presentation
-
 import react.FC
 import react.dom.html.ReactHTML.div
 import web.cssom.ClassName

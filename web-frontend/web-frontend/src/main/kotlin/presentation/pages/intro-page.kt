@@ -1,4 +1,4 @@
-package presentation
+package presentation.pages
 
 import react.*
 import react.dom.html.ReactHTML.div

@@ -14,16 +14,13 @@ repositories {
         url = uri("https://maven.pkg.jetbrains.space/public/p/kotlin-wrappers/maven")
     }
 }
+
 dependencies {
     implementation(enforcedPlatform("org.jetbrains.kotlin-wrappers:kotlin-wrappers-bom:1.0.0-pre.758"))
-
     implementation("org.jetbrains.kotlin-wrappers:kotlin-react")
     implementation("org.jetbrains.kotlin-wrappers:kotlin-react-dom")
     implementation("org.jetbrains.kotlin-wrappers:kotlin-react-router-dom")
 }
-
-
-
 
 kotlin {
     js(IR) {
@@ -37,6 +34,3 @@ kotlin {
         }
     }
 }
-
-// In your build.gradle.kts
-

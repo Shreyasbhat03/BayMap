@@ -3,7 +3,8 @@ import react.dom.html.ReactHTML.div
 import web.cssom.ClassName
 import presentation.pages.EmailVerificationPage
 import presentation.pages.HomePage
-
+import presentation.pages.LoginPage
+import presentation.pages.SignupPage
 
 import presentation.pages.IntroPage
 
@@ -12,4 +13,6 @@ val App = FC {
     IntroPage()
     EmailVerificationPage()
     HomePage()
+    LoginPage()
+    SignupPage()
 }
